@@ -6,21 +6,22 @@ const searchbtn = document.querySelector(".search button");
 const weathericon = document.getElementById("icon");
 
 async function checkWeather(city) {
-    const response = await fetch(apiurl + city + `&appid=${apikey}`);
+    const response = await fetch(apiurl + city + `&appid=${apikey}&units=metric`); // Add units=metric for Celsius
     if (response.ok) {
         const data = await response.json();
         let icon = `http://openweathermap.org/img/w/${data.weather[0].icon}.png`;
         
         document.querySelector(".city").innerHTML = data.name;
-        document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°C";
+        document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°C"; // Already in Celsius
         document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
         document.getElementById("Wind").innerHTML = data.wind.speed + " km/h";
         weathericon.src = icon; 
     } else {
         alert("City not found. Please try again.");
     }
-    document.querySelector(".weather").style.display="block";
+    document.querySelector(".weather").style.display = "block";
 }
+
 searchbtn.addEventListener("click", () => {
     const city = searchbox.value;
     checkWeather(city);
