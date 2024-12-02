@@ -1,11 +1,8 @@
 # Web-WeatherInfo
 
 # Weather App
-
-
-FIRST PAGE ![image](https://github.com/user-attachments/assets/9c7ab8c9-b2ca-46aa-9224-82887fcae834)
-![image](https://github.com/user-attachments/assets/356f5fcd-0f3e-4ca6-bc30-ac303066a618)
-![image](https://github.com/user-attachments/assets/7e6de86c-feff-4158-b152-c8ccdfb8832a)
+![Firstpage](https://github.com/user-attachments/assets/9c7ab8c9-b2ca-46aa-9224-82887fcae834) 
+![Firstpage](https://github.com/user-attachments/assets/7e6de86c-feff-4158-b152-c8ccdfb8832a) 
 
 ## Overview
 
