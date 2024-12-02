@@ -3,7 +3,11 @@
 # Weather App
 
 
-![Weather App Screenshot](![image](https://github.com/user-attachments/assets/46f110b1-cc44-4e36-9ac3-71721cc2a8de)
+![Weather App Screenshot](![image](https://github.com/user-attachments/assets/41ee0bf7-5b8e-4763-a111-58008cfff0c6)) 
+![Weather App Screenshot](![image](https://github.com/user-attachments/assets/7e6de86c-feff-4158-b152-c8ccdfb8832a)
+) 
+![Weather App Screenshot](![image](https://github.com/user-attachments/assets/356f5fcd-0f3e-4ca6-bc30-ac303066a618)
+
 ) 
 ## Overview
 
